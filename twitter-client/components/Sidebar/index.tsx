@@ -85,7 +85,7 @@ const Sidebar: React.FC = () => {
             </span>
           </button>
         </div>
-        <div className="flex justify-center items-center mb-10">
+        <div className="flex sm:justify-center lg:justify-start items-center mb-10 px-2">
           <Image
             src="https://pbs.twimg.com/profile_images/1679899939445387284/Pf1EQs8L_400x400.png"
             alt="profile image"
