@@ -10,10 +10,11 @@ interface ProfilePhotoProps {
 const ProfilePhoto: React.FC<ProfilePhotoProps> = ({
   height = 50,
   width = 50,
-  src = "https://pbs.twimg.com/profile_images/1679899939445387284/Pf1EQs8L_400x400.png",
+  src = "https://t3.ftcdn.net/jpg/05/16/27/58/360_F_516275801_f3Fsp17x6HQK0xQgDQEELoTuERO4SsWV.jpg",
 }): JSX.Element => {
   return (
-    <div className="flex justify-center lg:justify-start items-center px-2">
+    <div
+      className={`flex justify-center lg:justify-start items-center px-2 min-w-${width}`}>
       <Image
         src={src}
         alt="profile image"

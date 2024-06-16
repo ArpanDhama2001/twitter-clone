@@ -76,7 +76,7 @@ const Sidebar: React.FC = () => {
           </button>
         </div>
         <div className="mb-10">
-          <ProfilePhoto />
+          <ProfilePhoto src="https://media.licdn.com/dms/image/D5603AQFKn4DzJFHu2w/profile-displayphoto-shrink_800_800/0/1700187922680?e=1724284800&v=beta&t=V3PJdRN6t4_X1QCQXA1iBWxwxVD9BcvVlzQQ9B6L7LU" />
         </div>
       </div>
     </div>

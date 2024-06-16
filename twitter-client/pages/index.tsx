@@ -13,7 +13,16 @@ export default function Home() {
         <div className="order-1">
           <Header />
         </div>
-        <div className="order-2 grow">
+        <div className="order-2 grow overflow-scroll">
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
           <FeedCard />
         </div>
         <div className="order-3">
@@ -27,7 +36,15 @@ export default function Home() {
         <div className="sm:col-span-1 lg:col-span-3 flex items-start sm:flex-col sm:w-full sm:items-center lg:items-start sm:text-3xl lg:pl-[20%] lg:pr-4 pt-4 ">
           <Sidebar />
         </div>
-        <div className="bg-red-500 h-[100vh] sm:col-span-4 lg:col-span-5 border-r-[.2px] border-l-[.2px] border-gray-600 ">
+        <div className="h-[100vh] sm:col-span-4 lg:col-span-5 border-r-[.2px] border-l-[.2px] border-gray-600 overflow-scroll ">
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
+          <FeedCard />
           <FeedCard />
         </div>
         <div className="hidden sm:block sm:col-span-1 lg:col-span-4"></div>
