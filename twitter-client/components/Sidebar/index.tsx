@@ -58,7 +58,7 @@ const sideBarMenuItems: TwitterSidebarButton[] = [
 const Sidebar: React.FC = () => {
   return (
     <div>
-      <div className="text-3xl lg:text-4xl hover:bg-gray-600 hover:bg-opacity-20 w-fit rounded-full p-4 transition-all cursor-pointer">
+      <div className="text-3xl lg:text-4xl hover:bg-gray-600 hover:bg-opacity-40 w-fit rounded-full p-4 transition-all cursor-pointer">
         <BsTwitter />
       </div>
       <ul className="flex items-center lg:items-start w-full sm:flex-col justify-around">
@@ -68,7 +68,7 @@ const Sidebar: React.FC = () => {
               key={i}
               className={`${
                 item.isHidden ? "hidden" : ""
-              } sm:flex flex items-center justify-center lg:items-center lg:justfy-start gap-1 text-3xl lg:text-2xl hover:bg-gray-600 hover:bg-opacity-20 rounded-full w-fit p-4 sm:px-4 sm:py-2 sm:mt-3 transition-all cursor-pointer`}>
+              } sm:flex flex items-center justify-center lg:items-center lg:justfy-start gap-1 text-3xl lg:text-2xl hover:bg-gray-600 hover:bg-opacity-40 rounded-full w-fit p-4 sm:px-4 sm:py-2 sm:mt-3 transition-all cursor-pointer`}>
               <span>{item.icon}</span>
               <span className="hidden lg:block">{item.title}</span>
             </li>
