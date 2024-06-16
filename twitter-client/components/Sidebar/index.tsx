@@ -10,7 +10,7 @@ import {
 import { TbDotsCircleHorizontal } from "react-icons/tb";
 import { IoPersonSharp } from "react-icons/io5";
 import { RiQuillPenLine } from "react-icons/ri";
-import Image from "next/image";
+import ProfilePhoto from "../ProfilePhoto";
 
 interface TwitterSidebarButton {
   title: string;
@@ -75,14 +75,8 @@ const Sidebar: React.FC = () => {
             </span>
           </button>
         </div>
-        <div className="flex justify-center lg:justify-start items-center mb-10 px-2">
-          <Image
-            src="https://pbs.twimg.com/profile_images/1679899939445387284/Pf1EQs8L_400x400.png"
-            alt="profile image"
-            height={50}
-            width={50}
-            className="rounded-full "
-          />
+        <div className="mb-10">
+          <ProfilePhoto />
         </div>
       </div>
     </div>
